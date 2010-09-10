@@ -1,0 +1,21 @@
+# - Configuration module for LIBCXX to be used with FIND_PACKAGE().
+# Sets the following variables:
+#  LIBCXX_FOUND         TRUE if LIBXX has been found
+#  LIBCXX_INCLUDE_DIR   Include directory to be used with LIBCXX
+#  LIBCXX_LIBRARIES     Libraries to link against
+#  LIBCXX_COMPILE_FLAGS Compile flags which MUST be used
+#  LIBCXX_LINK_FLAGS    Linker flags which MUST be used
+#
+
+# Tell the user project where to find our headers and libraries
+set(LIBCXX_INCLUDE_DIR "@config_includedir@")
+set(LIBCXX_LIBRARIES LIBCXX_c++)
+
+# Compile and link flags
+set(LIBCXX_COMPILE_FLAGS "@compile_flags@")
+set(LIBCXX_LINK_FLAGS "@link_flags@")
+
+# Our library dependencies
+include("@config_cmakedir@/LIBCXX-exports.cmake")
+
+# ------------------------- vim: set sw=2 sts=2 et: --------------- end-of-file

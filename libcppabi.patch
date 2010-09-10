@@ -1,0 +1,71 @@
+diff --git a/libcppabi.xcodeproj/project.pbxproj b/libcppabi.xcodeproj/project.pbxproj
+index 6fd0331..4498845 100644
+--- a/libcppabi.xcodeproj/project.pbxproj
++++ b/libcppabi.xcodeproj/project.pbxproj
+@@ -42,8 +42,6 @@
+ 		F9FF235910D713D900BD9FBD /* tinfo2.cc in Sources */ = {isa = PBXBuildFile; fileRef = F9FF232910D7139300BD9FBD /* tinfo2.cc */; };
+ 		F9FF235A10D713D900BD9FBD /* vec.cc in Sources */ = {isa = PBXBuildFile; fileRef = F9FF232A10D7139300BD9FBD /* vec.cc */; };
+ 		F9FF235B10D713D900BD9FBD /* vterminate.cc in Sources */ = {isa = PBXBuildFile; fileRef = F9FF232B10D7139300BD9FBD /* vterminate.cc */; };
+-		F9FF239B10D7182F00BD9FBD /* libcppabi.plist in Copy OpenSourceVersions */ = {isa = PBXBuildFile; fileRef = F9FF239610D7180600BD9FBD /* libcppabi.plist */; };
+-		F9FF239C10D7182F00BD9FBD /* libcppabi.txt in Copy OpenSourceLicenses */ = {isa = PBXBuildFile; fileRef = F9FF239710D7180600BD9FBD /* libcppabi.txt */; };
+ 		F9FF23B810D71A6C00BD9FBD /* cxxabi.h in Copy |usr|include */ = {isa = PBXBuildFile; fileRef = F9FF230310D7139300BD9FBD /* cxxabi.h */; };
+ /* End PBXBuildFile section */
+ 
+@@ -58,28 +56,6 @@
+ /* End PBXContainerItemProxy section */
+ 
+ /* Begin PBXCopyFilesBuildPhase section */
+-		F9FF239310D717EC00BD9FBD /* Copy OpenSourceLicenses */ = {
+-			isa = PBXCopyFilesBuildPhase;
+-			buildActionMask = 8;
+-			dstPath = /usr/local/OpenSourceLicenses;
+-			dstSubfolderSpec = 0;
+-			files = (
+-				F9FF239C10D7182F00BD9FBD /* libcppabi.txt in Copy OpenSourceLicenses */,
+-			);
+-			name = "Copy OpenSourceLicenses";
+-			runOnlyForDeploymentPostprocessing = 1;
+-		};
+-		F9FF23AC10D7197F00BD9FBD /* Copy OpenSourceVersions */ = {
+-			isa = PBXCopyFilesBuildPhase;
+-			buildActionMask = 8;
+-			dstPath = usr/local/OpenSourceVersions;
+-			dstSubfolderSpec = 0;
+-			files = (
+-				F9FF239B10D7182F00BD9FBD /* libcppabi.plist in Copy OpenSourceVersions */,
+-			);
+-			name = "Copy OpenSourceVersions";
+-			runOnlyForDeploymentPostprocessing = 1;
+-		};
+ 		F9FF23B410D71A5900BD9FBD /* Copy |usr|include */ = {
+ 			isa = PBXCopyFilesBuildPhase;
+ 			buildActionMask = 8;
+@@ -131,8 +107,7 @@
+ 		F9FF232A10D7139300BD9FBD /* vec.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vec.cc; sourceTree = "<group>"; };
+ 		F9FF232B10D7139300BD9FBD /* vterminate.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vterminate.cc; sourceTree = "<group>"; };
+ 		F9FF233210D713BB00BD9FBD /* libc++abi.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libc++abi.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+-		F9FF239610D7180600BD9FBD /* libcppabi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = libcppabi.plist; sourceTree = "<group>"; };
+-		F9FF239710D7180600BD9FBD /* libcppabi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libcppabi.txt; sourceTree = "<group>"; };
++		F9FF239710D7180600BD9FBD /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+ /* End PBXFileReference section */
+ 
+ /* Begin PBXFrameworksBuildPhase section */
+@@ -217,8 +192,7 @@
+ 		F9FF239A10D7180A00BD9FBD /* doc */ = {
+ 			isa = PBXGroup;
+ 			children = (
+-				F9FF239610D7180600BD9FBD /* libcppabi.plist */,
+-				F9FF239710D7180600BD9FBD /* libcppabi.txt */,
++				F9FF239710D7180600BD9FBD /* LICENSE.txt */,
+ 			);
+ 			name = doc;
+ 			sourceTree = "<group>";
+@@ -232,8 +206,6 @@
+ 			buildPhases = (
+ 				F9FF232F10D713BB00BD9FBD /* Sources */,
+ 				F9FF233010D713BB00BD9FBD /* Frameworks */,
+-				F9FF239310D717EC00BD9FBD /* Copy OpenSourceLicenses */,
+-				F9FF23AC10D7197F00BD9FBD /* Copy OpenSourceVersions */,
+ 				F9FF23B410D71A5900BD9FBD /* Copy |usr|include */,
+ 			);
+ 			buildRules = (
