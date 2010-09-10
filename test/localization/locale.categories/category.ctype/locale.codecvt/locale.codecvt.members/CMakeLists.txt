@@ -1,0 +1,33 @@
+
+libcxx_add_tests(
+	char16_t_always_noconv.pass.cpp
+	char16_t_encoding.pass.cpp
+	char16_t_in.pass.cpp
+	char16_t_length.pass.cpp
+	char16_t_max_length.pass.cpp
+	char16_t_out.pass.cpp
+	char16_t_unshift.pass.cpp
+	char32_t_always_noconv.pass.cpp
+	char32_t_encoding.pass.cpp
+	char32_t_in.pass.cpp
+	char32_t_length.pass.cpp
+	char32_t_max_length.pass.cpp
+	char32_t_out.pass.cpp
+	char32_t_unshift.pass.cpp
+	char_always_noconv.pass.cpp
+	char_encoding.pass.cpp
+	char_in.pass.cpp
+	char_length.pass.cpp
+	char_max_length.pass.cpp
+	char_out.pass.cpp
+	char_unshift.pass.cpp
+	utf_sanity_check.pass.cpp
+	wchar_t_always_noconv.pass.cpp
+	wchar_t_encoding.pass.cpp
+	wchar_t_in.pass.cpp
+	wchar_t_length.pass.cpp
+	wchar_t_max_length.pass.cpp
+	wchar_t_out.pass.cpp
+	wchar_t_unshift.pass.cpp
+	)
+

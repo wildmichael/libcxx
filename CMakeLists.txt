@@ -276,3 +276,10 @@ install(FILES
 	${CMAKE_BINARY_DIR}/install_files/libcxx-config.cmake
 	${CMAKE_BINARY_DIR}/install_files/libcxx-config-version.cmake
 	DESTINATION ${CMAKE_INSTALL_CMAKEDIR})
+
+# add tests (disble by default)
+option(BUILD_TESTING "Build the testing tree" OFF)
+include(CTest)
+if(BUILD_TESTING)
+	add_subdirectory(test)
+endif()

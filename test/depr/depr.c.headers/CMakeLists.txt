@@ -1,0 +1,30 @@
+
+libcxx_add_tests(
+	assert_h.pass.cpp
+	ciso646.pass.cpp
+	complex.h.pass.cpp
+	ctype_h.pass.cpp
+	errno_h.pass.cpp
+	fenv_h.pass.cpp
+	float_h.pass.cpp
+	inttypes_h.pass.cpp
+	iso646_h.pass.cpp
+	limits_h.pass.cpp
+	locale_h.pass.cpp
+	math_h.pass.cpp
+	setjmp_h.pass.cpp
+	signal_h.pass.cpp
+	stdarg_h.pass.cpp
+	stdbool_h.pass.cpp
+	stddef_h.pass.cpp
+	stdint_h.pass.cpp
+	stdio_h.pass.cpp
+	stdlib_h.pass.cpp
+	string_h.pass.cpp
+	tgmath_h.pass.cpp
+	time_h.pass.cpp
+	uchar_h.pass.cpp
+	wchar_h.pass.cpp
+	wctype_h.pass.cpp
+	)
+

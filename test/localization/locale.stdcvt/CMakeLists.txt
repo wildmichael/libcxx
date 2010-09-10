@@ -1,0 +1,29 @@
+
+libcxx_add_tests(
+	codecvt_mode.pass.cpp
+	codecvt_utf16.pass.cpp
+	codecvt_utf16_always_noconv.pass.cpp
+	codecvt_utf16_encoding.pass.cpp
+	codecvt_utf16_in.pass.cpp
+	codecvt_utf16_length.pass.cpp
+	codecvt_utf16_max_length.pass.cpp
+	codecvt_utf16_out.pass.cpp
+	codecvt_utf16_unshift.pass.cpp
+	codecvt_utf8.pass.cpp
+	codecvt_utf8_always_noconv.pass.cpp
+	codecvt_utf8_encoding.pass.cpp
+	codecvt_utf8_in.pass.cpp
+	codecvt_utf8_length.pass.cpp
+	codecvt_utf8_max_length.pass.cpp
+	codecvt_utf8_out.pass.cpp
+	codecvt_utf8_unshift.pass.cpp
+	codecvt_utf8_utf16_always_noconv.pass.cpp
+	codecvt_utf8_utf16_encoding.pass.cpp
+	codecvt_utf8_utf16_in.pass.cpp
+	codecvt_utf8_utf16_length.pass.cpp
+	codecvt_utf8_utf16_max_length.pass.cpp
+	codecvt_utf8_utf16_out.pass.cpp
+	codecvt_utf8_utf16_unshift.pass.cpp
+	version.pass.cpp
+	)
+

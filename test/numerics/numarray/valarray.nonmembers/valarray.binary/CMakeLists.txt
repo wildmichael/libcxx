@@ -1,0 +1,34 @@
+
+libcxx_add_tests(
+	and_valarray_valarray.pass.cpp
+	and_valarray_value.pass.cpp
+	and_value_valarray.pass.cpp
+	divide_valarray_valarray.pass.cpp
+	divide_valarray_value.pass.cpp
+	divide_value_valarray.pass.cpp
+	minus_valarray_valarray.pass.cpp
+	minus_valarray_value.pass.cpp
+	minus_value_valarray.pass.cpp
+	modulo_valarray_valarray.pass.cpp
+	modulo_valarray_value.pass.cpp
+	modulo_value_valarray.pass.cpp
+	or_valarray_valarray.pass.cpp
+	or_valarray_value.pass.cpp
+	or_value_valarray.pass.cpp
+	plus_valarray_valarray.pass.cpp
+	plus_valarray_value.pass.cpp
+	plus_value_valarray.pass.cpp
+	shift_left_valarray_valarray.pass.cpp
+	shift_left_valarray_value.pass.cpp
+	shift_left_value_valarray.pass.cpp
+	shift_right_valarray_valarray.pass.cpp
+	shift_right_valarray_value.pass.cpp
+	shift_right_value_valarray.pass.cpp
+	times_valarray_valarray.pass.cpp
+	times_valarray_value.pass.cpp
+	times_value_valarray.pass.cpp
+	xor_valarray_valarray.pass.cpp
+	xor_valarray_value.pass.cpp
+	xor_value_valarray.pass.cpp
+	)
+

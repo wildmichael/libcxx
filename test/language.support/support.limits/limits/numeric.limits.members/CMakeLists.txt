@@ -1,0 +1,35 @@
+
+libcxx_add_tests(
+	denorm_min.pass.cpp
+	digits.pass.cpp
+	digits10.pass.cpp
+	epsilon.pass.cpp
+	has_denorm.pass.cpp
+	has_denorm_loss.pass.cpp
+	has_infinity.pass.cpp
+	has_quiet_NaN.pass.cpp
+	has_signaling_NaN.pass.cpp
+	infinity.pass.cpp
+	is_bounded.pass.cpp
+	is_exact.pass.cpp
+	is_iec559.pass.cpp
+	is_integer.pass.cpp
+	is_modulo.pass.cpp
+	is_signed.pass.cpp
+	lowest.pass.cpp
+	max.pass.cpp
+	max_digits10.pass.cpp
+	max_exponent.pass.cpp
+	max_exponent10.pass.cpp
+	min.pass.cpp
+	min_exponent.pass.cpp
+	min_exponent10.pass.cpp
+	quiet_NaN.pass.cpp
+	radix.pass.cpp
+	round_error.pass.cpp
+	round_style.pass.cpp
+	signaling_NaN.pass.cpp
+	tinyness_before.pass.cpp
+	traps.pass.cpp
+	)
+
